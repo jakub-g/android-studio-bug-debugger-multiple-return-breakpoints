@@ -20,6 +20,12 @@ public class MainActivity extends AppCompatActivity {
             Log.v("TEST", "true");
             Log.v("TEST", String.valueOf(myTest));
             return true;
+        } else if ("A".equals("A")) {
+            return false;
+        } else if ("B".equals("B")) {
+            return true;
+        } else if ("C".equals("C")) {
+            return false;
         } else {
             Log.v("TEST", "false");
             Log.v("TEST", String.valueOf(myTest));
